@@ -9,16 +9,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
 <body>
-    <header>
+    <header class="font-page container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                  <img src="images/logo.png" >
+              <a class="logo" href="#">
+                  <img src="images/logo.png" style="width: 300px;" >
               </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#micon" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="collapse navbar-collapse" id="micon">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -27,7 +27,7 @@
                     <a class="nav-link  active" href="#">Product</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link  active" href="#">about Us</a>
+                    <a class="nav-link  active" href="#">About Us</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link  active ">Contact Us</a>
@@ -36,29 +36,32 @@
               </div>
             </div>
           </nav>
+          <section>
+            <div class="row">
+                <div class="half-width col-md-5" style="margin-top:50px;">
+                
+                    <h1><span class="highlight">Be the Penguins</span></h1>
+                    <h1>of Winter</h1>
+                    <p>A professional energetic and passionate website developer<p> <br>
+                        <a class="link-button" target="_blank" href="#"> <img src="images/shopping-cart 1.png" style="width: 30px; height: 30px; margin-right:10px;"> Buy Now</a>
+        
+                </div>
+                <div class=" half-width col-md-7">
+                    <img src="images/profile.png" class="img-responsive">
+        
+                </div>
+            </div>
+        </section>
     </header>
-    <section>
-        <div class="half-width col-md-5">
-            
-            <h1><span class="highlight">Be the Penguins</span></h1>
-            <h1>of Winter</h1>
-            <p>A professional energetic and passionate website developer<p> <br>
-                <a class="link-button" target="_blank" href="#">Buy Now</a>
-
-        </div>
-        <div class=" half-width col-md-7">
-            <img src="images/profile.png">
-
-        </div>
-    </section>
+    
 
    <!-------------------woamn jacket starts------------->
-   <section class="mt-5">
-    <h2>Woman Jacket</h2>
+   <section class="mt-5 margin container">
+    <h2 style="margin-bottom: 50px;">Woman Jacket</h2>
   <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
         <div class="penguin-card card h-100 shadow">
-          <img src="images/girl 1.png" class="card-img-top">
+          <img src="images/girl 1.png" class="jacket-img">
           <div class="card-body">
             <h5 class="card-title">Yellow Coat Jacket </h5>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In sunt voluptates accusantium doloribus similique, quibusdam quisquam eius perspiciatis! Rerum, iure.
@@ -66,33 +69,33 @@
             <h3>$180</h3>
           </div>
           <div class="penguin-card-footer card-footer">
-           <button class="link-button">Buy Now >></button>
+           <button class="link-button"> <img src="images/shopping-cart 1.png" style="width: 30px; height: 30px; margin-right:10px;">Buy Now</button>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="penguin-card card h-100 shadow">
-          <img src="images/girl 2.png" class="card-img-top" alt="...">
+          <img src="images/girl 2.png" class="jacket-img" alt="...">
           <div class="card-body">
             <h5 class="card-title">Lather jacket</h5>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ad nam hic harum vitae fugit ipsum magnam rerum dignissimos sequi similique quod, at reiciendis qui voluptate quae eveniet impedit necessitatibus?</p>
             <h5>$180</h5>
           </div>
           <div class="penguin-card-footer card-footer">
-              <button class="link-button">Buy Now >></button>
+              <button class="link-button"> <img src="images/shopping-cart 1.png" style="width: 30px; height: 30px; margin-right:10px;">Buy Now</button>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="penguin-card card h-100 shadow">
-          <img src="images/girl 3.png" class="card-img-top" alt="...">
+          <img src="images/girl 3.png" class="jacket-img" alt="...">
           <div class="card-body">
             <h5 class="card-title">Ladies jacket</h5>
             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit perspiciatis, adipisci sint dolor officia expedita nemo reprehenderit unde recusandae. Soluta eius eum ullam illo vitae non. Laudantium veniam culpa harum!</p>
             <h5>$180</h5>
           </div>
           <div class="penguin-card-footer card-footer">
-              <button class="link-button">Buy Now >></button>
+              <button class="link-button"> <img src="images/shopping-cart 1.png" style="width: 30px; height: 30px; margin-right:10px;">Buy Now </button>
           </div>
         </div>
       </div>
@@ -100,49 +103,49 @@
 </section>
 
  <!-- -------------------man jacket starts------------- -->
-<section class="mt-5">
-<h3>Man Jacket</h3>
+<section class="mt-5 margin container">
+<h2 style=" margin-bottom: 50px;">Man Jacket</h2>
 <div class="row row-cols-1 row-cols-md-3 g-4">
 <div class="col">
   <div class="penguin-card h-100 shadow">
-    <img src="images/man 1.png" class="card-img-top" alt="...">
+    <img src="images/man 1.png" class="jacket-img" alt="...">
     <div class="card-body">
       <h5 class="card-title">Snowboard Jacket Mens</h5>
       
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, maiores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem dicta obcaecati facilis sunt laboriosam soluta ut molestiae asperiores, deserunt hic minus dignissimos  ipsum dolor sit amet consectetur, adipisicing elit. Autem dicta obcaecati facilis sunt laboriosam soluta ut molestiae asperiores, deserunt hic minus dignissimos eveniet odit commodim comofi comodi lomodi. Temporibu itss mine .error sit button etc look like other and we.
       </p>
       <h3>$120</h3>
     </div>
     <div class="card-footer penguin-card-footer">
-     <button class="link-button">Buy Now >></button>
+     <button class="link-button"> <img src="images/shopping-cart 1.png" style="width: 30px; height: 30px; margin-right:10px;">Buy Now </button>
     </div>
   </div>
 </div>
 <div class="col">
   <div class="penguin-card h-100 shadow">
-    <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+    <img src="images/man 2.png" class="jacket-img" alt="...">
     <div class="card-body">
       <h5 class="card-title">Man Leather Jackets</h5>
-      <h5>$220</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+     
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, ratione? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur magnam non harum culpa, nemo co this is nothingsnsequatur quasi eos consectetur ab deserunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, unde tenetur nam consectetur eaque quis?adipisicing elit. Iusto, unde tenetur nam consectetur adipisicing elit. Iusto, unde tenetur nam consectetur eaque quis?adipisicing elit. Iusto, unde tenetur nam consectet eaque quis?trust and peace other matters with eroor.</p>
       <h3>$220</h3>
     </div>
     <div class="card-footer penguin-card-footer">
-        <button class="link-button">Buy Now >></button>
+        <button class="link-button"> <img src="images/shopping-cart 1.png" style="width: 30px; height: 30px; margin-right:10px;">Buy Now </button>
     </div>
   </div>
 </div>
 <div class="col">
   <div class="penguin-card h-100 shadow">
-    <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+    <img src="images/man 3.png" class="jacket-img" alt="...">
     <div class="card-body">
       <h5 class="card-title">Man Casual Jackets</h5>
      
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action . Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam facilis dicta iure a, tempore quis necessitatibus est possimus nostrum dolor minus odio. Aliquid provident animi unde, molestiae impedit natus dolorum? Lorem ipsum dolor sit amet.we wrod lorem wtc. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, fugit  reprehenderit a odio perferendis unde! reprehenderit a odio perferendis unde!</p><br>
       <h3>$180</h3>
     </div>
     <div class="card-footer penguin-card-footer">
-        <button class="link-button">Buy Now >></button>
+        <button class="link-button"> <img src="images/shopping-cart 1.png" style="width: 30px; height: 30px; margin-right:10px;">Buy Now </button>
     </div>
   </div>
 </div>
@@ -153,23 +156,51 @@
 
 
 
-<section>
+<section class="margin extra">
+  <div class="row">
     <div class="half-width col-md-5">
         
-        <div>
-            <img src="images/image 12.png" alt="">
+        <div class="d-flex shadow p-3 mb-5 bg-white rounded rounded-3">
+            <img src="images/image 12.png" class="img-responsive" style="width: 75px; height: 75px; margin-right: 30px">
+            <div><h5>Find the Perfect Fit</h5>
+                <p>Everybody is different, which is why we offer styles for every body</p></div>
+        </div>
+        <div class="d-flex shadow p-3 mb-5 bg-white rounded rounded-3">
+            <img src="images/image 13.png" class="img-responsive" style="width: 75px; height: 75px; margin-right: 30px" alt="">
+            <div>
+                <h5>Free Exchanges</h5>
+            <p>One of the many reasons you can shop with peace of mind.</p>
+            </div>
+        </div>
+        <div class="d-flex shadow p-3 mb-5 bg-white rounded rounded-3">
+            <img src="images/image 14.png" class="img-responsive" style="width: 75px; height: 75px; margin-right: 30px" alt="">
+            <div>
+                <h5>Contact Our Seller</h5>
+            <p>They are here to help you. That's quite literally what we pay them for.</p>
+            </div>
         </div>
 
     </div>
+
     <div class=" half-width col-md-7">
-        <img src="images/XMLID 1.png">
+        <img src="images/XMLID 1.png" class="img-responsive" style="width: 500px; height: 400px;">
 
     </div>
+  </div>>
 </section>
 
 
-
-
+<section style="height: 300px; " class="mt-5 shadow p-3 mb-5 bg-white rounded rounded-3 bg-info container d-flex align-items-center justify-content-center">
+  <div>
+    <h1>LET US HELP YOU</h1>
+  <h5>Buy products from our shop</h5>
+  <input class=" rounded-3" type="text" placeholder="Enter your Email"><br>
+  <button class="link-button" style=" margin-top: 20px;">SUBMIT</button>
+  </div>
+</section>
+<footer class="text-center mt-5" >
+    <small>©2021. Penguin Fashion. All rights reserved, Samiha Ahmed,Bangladesh.</small>
+  </footer>
 
 
 

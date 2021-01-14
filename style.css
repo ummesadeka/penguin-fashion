@@ -1,7 +1,19 @@
+.logo img{
+     width: 280px;
+     margin-right: 300px;
+}
+
+
+
+.font-page{
+    background-color: #fffbf0;
+}
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px ;
 }
+
 h1{
     font-size: 45px;
 }
@@ -21,16 +33,19 @@ h2{
 p{
     color: dimgray;
 }
-.half-width{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
-}
-.half-width img{
-    width: 100%;
-}
-section{
+
+    .half-width{
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        padding-left: 2%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .half-width img{
+        width: 100%;
+    }
+
+.section{
     padding-bottom: 100px;
     height: 500px;
     margin-top: 20px;
@@ -51,4 +66,28 @@ section{
      background-color: white;
      border: 0;
  }
- .
+ h5{
+     font-size: 30px;
+     color: rgb(40, 35, 53)
+ }
+ .margin{
+     margin-bottom: 200px;
+ }
+ .jacket-img{
+     height: 300px;
+     width: 280px;
+ }
+ .extra{
+     margin-bottom: 300px;
+ }
+ @media only screen and (max-width: 968px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    @media only screen and (max-width: 660px) {
+        /* For mobile phones: */
+        [class*="col-"] {
+          width: 100%;
+        }
+    }
