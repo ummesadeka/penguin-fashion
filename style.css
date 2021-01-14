@@ -1,0 +1,54 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 40px;
+}
+.highlight{
+    color: #2980B9;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(#36D1DC, #5B86E5);
+    padding: 20px 35px;
+    border-radius: 10px;
+}
+p{
+    color: dimgray;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+section{
+    padding-bottom: 100px;
+    height: 500px;
+    margin-top: 20px;
+}
+.penguin-card{
+    border: 0;
+}
+.penguin-slide .carousel-item{
+    background-color:#fceae8;
+    border-radius: 2em;
+ }
+ 
+ 
+ .penguin-card {
+     border: 0;
+ }
+ .penguin-card-footer{
+     background-color: white;
+     border: 0;
+ }
+ .
